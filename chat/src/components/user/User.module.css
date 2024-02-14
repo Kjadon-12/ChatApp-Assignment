@@ -1,0 +1,35 @@
+.userForm{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    align-items: center;
+    height: inherit;
+    padding: 118px;
+    border: 2px solid rgb(1, 46, 1);
+    margin: 0 auto;
+    gap:  18px;
+}
+
+.inputB{
+border-radius: 8px;
+width: 100%;
+height: 34px;
+border: none;
+padding-left: 4px;
+font-size: 18px;
+}
+
+.btn{
+    border-radius: 8px;
+    width: 100%;
+    height: 34px;
+    border: none;
+    background-color: rgb(13, 155, 13);
+    color: white;
+    font-size: 18px;
+}
+
+.userNameReq{
+    color: red;
+    margin: 0;
+}
